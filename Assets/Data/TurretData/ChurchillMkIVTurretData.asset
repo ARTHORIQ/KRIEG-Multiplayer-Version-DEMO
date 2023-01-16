@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3e15ff43117b1428c2e552267b48d7, type: 3}
+  m_Name: ChurchillMkIVTurretData
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 7982074120657412316, guid: f54acdfe748cd9342a59cb9a63c7f78c, type: 3}
+  reloadDelay: 3
+  bulletData: {fileID: 11400000, guid: 0fc53a9de47bab442a535abb6c65e427, type: 2}

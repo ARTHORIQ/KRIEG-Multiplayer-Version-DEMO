@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8789278527099936465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Weapon/gunshots
+  m_EditorClassIdentifier: 
+  Path: event:/Weapon/gunshots
+  Guid:
+    Data1: 71123564
+    Data2: 1181133776
+    Data3: -987235151
+    Data4: 291696671
+  Banks:
+  - {fileID: -1191860762486456238}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2679
+--- !u!114 &-8345521840817350172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BattleMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BattleMusic
+  Guid:
+    Data1: -1045140190
+    Data2: 1077403598
+    Data3: -815213393
+    Data4: -791360057
+  Banks:
+  - {fileID: -1191860762486456238}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66768
+--- !u!114 &-3026665410730942378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/MenuMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/MenuMusic
+  Guid:
+    Data1: -2074161681
+    Data2: 1255060158
+    Data3: -1932478808
+    Data4: 164725575
+  Banks:
+  - {fileID: -1191860762486456238}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 104507
+--- !u!114 &-1858316831806675278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Vehicle/pz5enginesounds
+  m_EditorClassIdentifier: 
+  Path: event:/Vehicle/pz5enginesounds
+  Guid:
+    Data1: -332681349
+    Data2: 1120408768
+    Data3: 1591871148
+    Data4: -1304346696
+  Banks:
+  - {fileID: -1191860762486456238}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14968
+--- !u!114 &-1191860762486456238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Creation Project/Game/KRIEG FMOD/KRIEGFMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638069668585864585
+  FileSizes:
+  - Name: Desktop
+    Value: 2357120
+  Exists: 1
+--- !u!114 &-720641084761970770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explosion/wood-explode
+  m_EditorClassIdentifier: 
+  Path: event:/Explosion/wood-explode
+  Guid:
+    Data1: 2067165690
+    Data2: 1213035165
+    Data3: 2017121462
+    Data4: 1736774303
+  Banks:
+  - {fileID: -1191860762486456238}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1298
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 4125241197783689706}
+  - {fileID: -1191860762486456238}
+  EditorEvents:
+  - {fileID: -8345521840817350172}
+  - {fileID: -8789278527099936465}
+  - {fileID: -720641084761970770}
+  - {fileID: -1858316831806675278}
+  - {fileID: -3026665410730942378}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -1191860762486456238}
+  StringsBanks:
+  - {fileID: 4125241197783689706}
+  cacheTime: 638069668585884152
+  cacheVersion: 131591
+--- !u!114 &4125241197783689706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Creation Project/Game/KRIEG FMOD/KRIEGFMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638069668585884152
+  FileSizes:
+  - Name: Desktop
+    Value: 982
+  Exists: 1
