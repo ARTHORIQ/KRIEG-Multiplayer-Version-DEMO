@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1171424146568629477}
   - component: {fileID: 1171424146568629476}
   - component: {fileID: 5743848048245264156}
-  - component: {fileID: 4491615124541206396}
+  - component: {fileID: 6726244469880534533}
   m_Layer: 7
   m_Name: TankTurret
   m_TagString: Untagged
@@ -143,7 +143,7 @@ MonoBehaviour:
   objectToPool: {fileID: 0}
   poolSize: 10
   spawnedObjectsParent: {fileID: 0}
---- !u!114 &4491615124541206396
+--- !u!114 &6726244469880534533
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1171424146568629479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: df2868252ab5c4d1da357e8f11f1b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 1
@@ -161,9 +161,9 @@ MonoBehaviour:
   SyncRotAngleX: 1
   SyncRotAngleY: 1
   SyncRotAngleZ: 1
-  SyncScaleX: 0
-  SyncScaleY: 0
-  SyncScaleZ: 0
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
   PositionThreshold: 0.001
   RotAngleThreshold: 0.01
   ScaleThreshold: 0.01
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 1171424146833124575}
   - component: {fileID: 1171424146833124574}
   - component: {fileID: 1171424146833124573}
-  - component: {fileID: 9195343920676821382}
+  - component: {fileID: 8368434252733694119}
   m_Layer: 7
   m_Name: TankHull
   m_TagString: Player
@@ -271,7 +271,7 @@ MonoBehaviour:
   movementData: {fileID: 11400000, guid: 2f73f08eb935e8e44a28404522ac04ed, type: 2}
   currentSpeed: 0
   currentForwardDirection: 1
---- !u!114 &9195343920676821382
+--- !u!114 &8368434252733694119
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1171424146833124560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: df2868252ab5c4d1da357e8f11f1b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 1
@@ -289,9 +289,9 @@ MonoBehaviour:
   SyncRotAngleX: 1
   SyncRotAngleY: 1
   SyncRotAngleZ: 1
-  SyncScaleX: 0
-  SyncScaleY: 0
-  SyncScaleZ: 0
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
   PositionThreshold: 0.001
   RotAngleThreshold: 0.01
   ScaleThreshold: 0.01
@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 4239204222048285322}
   - component: {fileID: 7847409114845230792}
   - component: {fileID: 4224367565518947255}
+  - component: {fileID: 1107990496060037099}
   m_Layer: 7
   m_Name: Tank
   m_TagString: Player
@@ -459,6 +460,32 @@ MonoBehaviour:
   onHeal:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1107990496060037099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171424147265502256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df2868252ab5c4d1da357e8f11f1b524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 0
+  SyncScaleY: 0
+  SyncScaleZ: 0
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  InLocalSpace: 0
+  Interpolate: 1
 --- !u!1 &1171424147272789917
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,7 +495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1171424147272789916}
-  - component: {fileID: 1498408384888103231}
+  - component: {fileID: 9131291333513513493}
   m_Layer: 7
   m_Name: Barrel
   m_TagString: Untagged
@@ -491,7 +518,7 @@ Transform:
   m_Father: {fileID: 1171424146568629478}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1498408384888103231
+--- !u!114 &9131291333513513493
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -500,7 +527,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1171424147272789917}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: df2868252ab5c4d1da357e8f11f1b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 1
@@ -509,9 +536,9 @@ MonoBehaviour:
   SyncRotAngleX: 1
   SyncRotAngleY: 1
   SyncRotAngleZ: 1
-  SyncScaleX: 0
-  SyncScaleY: 0
-  SyncScaleZ: 0
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
   PositionThreshold: 0.001
   RotAngleThreshold: 0.01
   ScaleThreshold: 0.01
@@ -527,7 +554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1171424148308328295}
   - component: {fileID: 1171424148308328294}
-  - component: {fileID: 648330638993573331}
+  - component: {fileID: 7012511086942308179}
   m_Layer: 7
   m_Name: TankTurretParent
   m_TagString: Untagged
@@ -564,7 +591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turretRotationSpeed: 27
---- !u!114 &648330638993573331
+--- !u!114 &7012511086942308179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -573,7 +600,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1171424148308328312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: df2868252ab5c4d1da357e8f11f1b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 1
@@ -603,7 +630,7 @@ GameObject:
   - component: {fileID: 6478019900926274178}
   - component: {fileID: 6478019900926274177}
   - component: {fileID: 6478019900926274162}
-  - component: {fileID: 6229884289150732982}
+  - component: {fileID: 4335712070849200857}
   m_Layer: 0
   m_Name: PlayerMulti
   m_TagString: Untagged
@@ -744,7 +771,7 @@ MonoBehaviour:
   AlwaysReplicateAsRoot: 0
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &6229884289150732982
+--- !u!114 &4335712070849200857
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -753,7 +780,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6478019900926274189}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  m_Script: {fileID: 11500000, guid: df2868252ab5c4d1da357e8f11f1b524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SyncPositionX: 1
@@ -1012,9 +1039,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 4
+  m_MaxValue: 5
   m_WholeNumbers: 0
-  m_Value: 4
+  m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
