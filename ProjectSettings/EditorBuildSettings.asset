@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Build.V1/Menu.unity
     guid: ce7555d3c7b14d740a167557cadc3c74
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Build.V1/TutorialLevel.unity
     guid: 09000a2a0fd8f0b459969fa167f6a45b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Build.V1/Level1.unity
     guid: 4d1d3cff18b6aaa479958febd8953099
   - enabled: 0
     path: Assets/Scenes/KRIEG_TechnologyDemo.unity
     guid: 0f0d029903ef11f4a8fac08c425bf637
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Multiplayer Build/Multiplayer Level.unity
     guid: 7321ff46eb00ea54cbeb4d51487cc652
   m_configObjects: {}

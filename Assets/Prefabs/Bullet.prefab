@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c9daaa13d1512f4f960d8dc89f9ba63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletData: {fileID: 11400000, guid: 3184a0d3ecec9d34a960697a9121be6a, type: 2}
+  bulletData: {fileID: 11400000, guid: c4b66c72caba3be43b6f242cfbc883da, type: 2}
   bulletSpeed: 35
   bulletDamage: 25
   maxDistance: 65
